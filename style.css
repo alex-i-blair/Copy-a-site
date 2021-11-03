@@ -1,0 +1,79 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(60, 69, 82);
+    color: aliceblue;
+    margin: 0 auto;
+    height: 110px;
+}
+
+
+
+main.page-box {
+    width: 1000px;
+    height: auto;
+    /* border: solid 1px black; */
+    margin: 0 auto;
+    /* display: flexbox; */
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: auto;
+    grid-gap: 6px;
+    height: 100%;
+}
+
+.bordered-column {
+    border: solid .1rem gray;
+    border-radius: 4px;
+}
+
+.bordered-column p {
+    padding-left: 5px;
+}
+
+#colors {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.creature h4 {
+    /* border: solid .1rem gray; */
+    text-align: center;
+    font-weight: bold;
+    height: 60px;
+    background-color: rgb(239, 238, 237);
+    margin: 0 auto;
+    line-height: 225%;
+    
+}
+hr {
+    margin: 0;
+}
+.animals p {
+    margin: 0;
+    padding: 4px;
+}
+.top-row-nav, .bottom-row-nav {
+    background-color: rgb(239, 238, 237);
+    height: 100%;
+    padding: 0;
+}
+
+nav h3 {
+    margin: 0;
+    height: 60px;
+    border: solid 1px lightgray;
+}
